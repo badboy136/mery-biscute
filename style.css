@@ -1,0 +1,93 @@
+.icon-sec {
+    padding: 160px 0px;
+    text-align: center;
+    font-size: 10rem;
+    color: red;
+    position: relative;
+    animation: play 2s ease-out infinite alternate;
+}
+@keyframes play{
+   0%{
+        transform: scale(1);
+        color: rgb(118, 118, 236);
+        
+        opacity: 0;
+    }
+    20%{
+        transform: scale(1.2);
+        color: rgb(0, 200, 255);
+        opacity: .4;
+    }
+    40%{
+        transform: scale(1.4);
+        color: rgb(225, 255, 0);
+        opacity: .5;
+    }
+    60%{
+        transform: scale(1.6);
+        color: rgb(0, 157, 255);
+        opacity: .7;
+    }
+    80%{
+        transform: scale(1.8);
+        color: rgb(0, 255, 60);
+        opacity: .9;
+    }
+    100%{
+        transform: scale(2);
+        color: rgb(255, 0, 170);
+        opacity: 0;
+    }
+}
+h1{
+ position: relative;
+    
+    font-weight: 900;
+    animation: play1 5s ease-out infinite ;
+}
+@keyframes play1{
+    0%{
+        left: 20px;
+        color: aqua;
+    }
+    10%{
+        left: 40px;
+        color: rgb(192, 241, 241);
+    }
+    20%{
+        left: 60px;
+        color: rgb(90, 28, 189);
+    }
+    30%{
+        left: 80px;
+        color: rgb(212, 255, 0);
+    }
+    40%{
+        left: 100px;
+        color: rgb(255, 0, 170);
+    }
+    50%{
+        left: 120px;
+        color: rgb(17, 255, 0);
+    }
+    60%{
+        right: 20px;
+        color: rgba(0, 255, 255, 0.041);
+    }
+    70%{
+        right: 40px;
+        color: rgb(255, 123, 0);
+    }
+    80%{
+        right: 60px;
+        color: rgb(36, 44, 44);
+    }
+    90%{
+        right: 80px;
+        color: rgb(0, 255, 187);
+    }
+    100%{
+        right: 100px;
+        color: rgb(255, 0, 136);
+    }
+}
